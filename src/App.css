@@ -1,37 +1,4 @@
-.App {
-  padding: 2vh;
-  height: 100vh;
-  max-width: 100%;
-  text-align: center;
-  display: grid;
-  grid-template: 10% 1fr / 10% 45% 45%;
-  justify-items: left;
-  align-items: center;
-}
-
 .Navbar {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-}
-
-.LoginRegister {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
-  justify-self: right;
-}
-
-.Main {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-
-.PrincipalImg {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-
-a {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  justify-self: center;
-}
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }

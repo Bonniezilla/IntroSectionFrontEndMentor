@@ -1,0 +1,38 @@
+.Features {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 0.3em;
+    padding: 1rem;
+    grid-template: 1fr / 25% 75% ;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1.5rem hsl(0, 0%, 41%)
+}
+
+.Features .Topics {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-self: start;
+}
+
+.Features .Icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+.Features a {
+    grid-column: 2 / 3;
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    text-align: left;
+}
+
+.Features img {
+    grid-column: 1 / 2;
+}

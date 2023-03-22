@@ -1,21 +1,10 @@
-import './App.css';
-
-import LoginRegister from './components/LoginRegister';
-import Main from './components/Main';
 import Navbar from './components/Navbar';
-import PrincipalImg from './components/PrincipalImg';
 
-
-import Logo from "./img/logo.svg";
-
+import './App.css';
 const App = () => {
   return (
-    <div className="App">
-      <a href="index.html"><img src={Logo} alt="Home"/></a>
+    <div id="App" className="App">
       <Navbar />
-      <LoginRegister />
-      <Main />
-      <PrincipalImg />
     </div>
   );
 }

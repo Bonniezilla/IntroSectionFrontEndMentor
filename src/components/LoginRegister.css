@@ -1,8 +1,0 @@
-.LoginRegister {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.LoginRegister button:first-of-type {
-    border: none;
-}
