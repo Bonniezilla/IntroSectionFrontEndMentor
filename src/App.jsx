@@ -29,7 +29,8 @@ const App = () => {
       <Navbar overEvent={changeOverState} 
       leaveEvent={changeLeaveState}/>
       {
-        over === true && <Company />
+        over === true && <Features overEvent={() => {setOver(true)}}
+        leaveEvent={() => {setOver(false)}}/>
       }
       <div class="LoginRegister">
         <button>Login</button>

@@ -5,9 +5,11 @@ import Calendar from "../img/icon-calendar.svg";
 import Reminders from "../img/icon-reminders.svg";
 import Planning from "../img/icon-planning.svg";
 
-const Features = () => {
+const Features = (props) => {
     return (
-        <div className="Features">
+        <div className="Features" 
+        onMouseOver={props.overEvent}
+        onMouseLeave={props.leaveEvent}>
             <div className="Icons">
             <img src={ToDo} alt="ToDo Icon" />
             <img src={Calendar} alt="Calendar Icon" />
