@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Company from './components/Company';
 
 import './App.css';
+
 import Logo from './img/logo.svg'
 import AudioPhile from './img/client-audiophile.svg';
 import Databiz from './img/client-databiz.svg';
