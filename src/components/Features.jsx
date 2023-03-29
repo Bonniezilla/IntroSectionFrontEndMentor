@@ -1,9 +1,9 @@
-import "./Features.css"
+import "./Features.css";
 
-import ToDo from "../img/icon-todo.svg"
-import Calendar from "../img/icon-calendar.svg"
-import Reminders from "../img/icon-reminders.svg"
-import Planning from "../img/icon-planning.svg"
+import ToDo from "../img/icon-todo.svg";
+import Calendar from "../img/icon-calendar.svg";
+import Reminders from "../img/icon-reminders.svg";
+import Planning from "../img/icon-planning.svg";
 
 const Features = () => {
     return (

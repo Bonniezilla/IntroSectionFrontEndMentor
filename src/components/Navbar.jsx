@@ -1,18 +1,15 @@
-import root from ".."
-
-import Features from "./Features"
 
 import "./Navbar.css"
-    
-const Navbar = () => {
-    const renderElement = () => {
-        root.render(<Features />)
-      }
+
+const Navbar = (props) => {
+
     return (
         <div className="Navbar">
             <ul>
-                <li onClick={renderElement}>Features</li>
-                <li>Company</li>
+                <li onMouseOver={props.overEvent} 
+                onMouseLeave={props.leaveEvent}>Features</li>
+                <li onMouseOver={props.overEvent} 
+                onMouseLeave={props.leaveEvent}>Company</li>
                 <li>Careers</li>
                 <li>About</li>
             </ul>
