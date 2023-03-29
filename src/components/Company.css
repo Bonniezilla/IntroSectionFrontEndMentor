@@ -1,12 +1,29 @@
 .Company {
-    display: grid;
+    z-index: 1;
+    background: white;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    align-self: start;
     justify-items: center;
     align-items: center;
     gap: 0.3em;
-    padding: 1rem;
-    grid-template: 1fr / 25% 75% ;
+    padding: 1.5rem;
     width: 8rem;
     height: 9rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1.5rem hsl(0, 0%, 41%)
+}
+
+.Topics {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-items: center;
+}
+
+.Topics a {
+    text-decoration: none;
+    text-align: left;
+    color: hsl(0, 0%, 41%);
 }

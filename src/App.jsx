@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import Features from './components/Features';
 import Navbar from './components/Navbar';
+import Company from './components/Company';
 
 import './App.css';
 import Logo from './img/logo.svg'
@@ -20,13 +21,14 @@ const App = () => {
   function changeLeaveState() {
     over === true && setOver(false);
   }
-
+  
   return (
     <div id="App" className="App">
       <a href="index.html"><img src={Logo} alt="Home" /></a>
-      <Navbar overEvent={changeOverState} leaveEvent={changeLeaveState}/>
+      <Navbar overEvent={changeOverState} 
+      leaveEvent={changeLeaveState}/>
       {
-        over === true && <Features />
+        over === true && <Company />
       }
       <div class="LoginRegister">
         <button>Login</button>
