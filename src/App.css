@@ -13,8 +13,6 @@
     background: hsl(0, 0%, 98%);
     font-family: 'Epilogue', sans-serif;
     padding: 2vh;
-    height: 100vh;
-    max-width: 100%;
     text-align: center;
     display: grid;
     grid-template: 10% 1fr / 10% 45% 45%;
